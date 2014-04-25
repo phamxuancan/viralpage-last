@@ -1,0 +1,576 @@
+#container{
+    display: none;
+}
+#dialog{
+    display: none;
+}
+#medium{
+    display: block;
+    margin: auto;
+}
+body{
+    background-image: url("../img/bgr_mobile.png");
+    margin: auto;
+    overflow: scroll;
+}
+#m_top{
+    float: left;
+    display:block ;
+    height: 100px;
+   background:#FFBF00;
+    width: 100%;
+}
+#m_content{
+    float: left;
+    display: block;
+    height:90% ;
+    width: 100%;
+    text-align: center;
+}
+.m_text_1{
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    height:60px;
+    text-align: center;
+
+}
+.m_timeup_text{
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+    height:220px;
+    text-align: center;
+
+}
+.m_text1_1{
+    font-size: 52pt;
+    font-family: Amatic SC,cursive;
+    font-weight: bold;
+}
+.m_content_image{
+    display: block;
+    float: left;
+    text-align: center;
+    height: 1000px;
+    width: 100%;
+}
+.m_content_image_1{
+    left: 15%;
+    text-align: center;
+    position: absolute;
+    height: 1000px;
+    width: 700px;
+    z-index: 1;
+}
+.m_content_image_2{
+    left: 15%;
+    text-align: center;
+    position: absolute;
+    height: 1000px;
+    width: 705px;
+    z-index: 2;
+}
+.m_text_2{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    float: left;
+    padding-top: 10px;
+    margin-top:50px;
+    font-weight: bold;
+
+}
+.m_text_2_1{
+    font-size: 30pt;
+}
+.m_content_bt{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height:200px ;
+}
+.m_content_image_text{
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    margin-top: 4%;
+    z-index: 2;
+    color:#603913 ;
+}
+.m_content_image_text_1{
+    float: left;
+    margin-left: 25%;
+    font-size: 90pt;
+    font-weight: bold;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+
+}
+.m_content_image_text_2{
+    float: left;
+    margin-left: 10%;
+    margin-top: -20px;
+    font-size: 90pt;
+    font-weight: bold;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+.m_content_bt_fb{
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.m_content_bt_fb_1{
+    float: right;
+   margin-right: 20px;
+    height: 135px;
+    width: 400px;
+}
+.m_content_bt_fb_text{
+    position: absolute;
+    margin-left: 19%;
+    margin-right: 85px;
+    margin-top: 30px;
+    width: 250px;
+}
+.m_content_bt_fb_text_1{
+    font-size: 25px;
+}
+.m_content_bt_fb_text_2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.m_content_bt_down{
+    float: left;
+    width: 50%;
+    height: 150px;
+
+}
+.m_content_bt_down_text{
+    position: absolute;
+    float: left;
+    margin-left: 17%;
+    margin-top: 30px;
+    width: 250px;
+}
+.m_content_bt_down_1{
+    height: 135px;
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+.m_content_bt_down_text_1{
+    font-size: 25px;
+}
+.m_content_bt_down_text_2{
+    font-size: 40px;
+    font-weight: bold;
+}
+  .m_top_logo{
+      float: left;
+      height: 100%;
+      width: 50%;
+  }
+  .m_top_logo_1{
+      float: left;
+      margin-top:10px ;
+      margin-left: 50px;
+      height: 80%;
+      width: 80%;
+  }
+  .m_top_text{
+      float: right;
+      height: 100%;
+      width: 50%;
+  }
+  .m_top_text_1{
+      float: left;
+      margin-top: 25px;
+      font-size: 33pt;
+      color: #603913;
+  }
+  .font_open{
+      font-family: open sans;
+  }
+  .font_cover{
+      font-family: Covered By Your Grace;
+  }
+  .font_amatic{
+      font-family:Amatic SC, cursive;
+  }
+  .text_white{
+      color: #ffffff;
+  }
+  .m_content_select{
+      margin-top: 50px;
+      float: left;
+      text-align: center;
+      width: 100%;
+      height:250px ;
+  }
+  .m_content_select_text{
+      width: 60%;
+      height:210px ;
+      float: left;
+  }
+  .m_content_select_time{
+      width: 35%;
+      height:250px ;
+      float: right;
+  }
+  .m_content_select_text_1{
+      float: left;
+      margin-left:15% ;
+      margin-top: -30px;
+      font-size: 50pt;
+  }
+.m_content_select_text_2{
+    position: absolute;
+    left: 25%;
+    float: left;
+    margin-top: 95px;
+    font-size: 38pt;
+    font-weight: bold;
+}
+.m_content_select_image{
+    position: absolute;
+    float: left;
+    left: 10%;
+    margin-top:65px;
+    height: 120px;
+    width: 500px;
+
+}
+.m_content_select_time_1{
+    float:right;
+    width: 280px;
+    height: 280px;
+    margin-top: -30px;
+}
+.m_image_timeup_bottom{
+    position: absolute;
+    font-size: 30pt;
+    top:1600px;
+    z-index: 2;
+    width: 400px;
+    color: #634527;
+    left: 29%;
+    font-family:Covered By Your Grace ;
+}
+.m_content_select_time_11{
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+.m_content_select_time_12{
+    display: none;
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+.time_num{
+    position: absolute;
+    font-size: 180px;
+    right: 15px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+.content_emotion{
+    position: absolute;
+    display: block;
+    float: left;
+    left: 10%;
+    top: 770px;
+    height: 500px;
+    width: 450px;
+    z-index: 1;
+}
+.m_table_emo{
+    position: absolute;
+    float: left;
+    top: 0px;
+}
+.m_table_emo td{
+    width: 225px;
+    height: 150px;
+}
+.m_text_1_2{
+    font-size: 100pt;
+    font-weight: bold;
+
+}
+.m_text_timeup_2{
+    margin-top: 290px;
+    text-align: center;
+    height: 220px;
+}
+.m_text_timeup_2_1{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 28pt;
+}
+.m_time_bt{
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+    width: 495px;
+    height: 135px;
+}
+.m_time_bt_1{
+    float: left;
+    height: 100%;
+    width: 100%;
+    left: 25%;
+}
+.m_time_bt_text{
+    position: absolute;
+    float: left;
+    margin-left: 19%;
+    margin-top: 10px;
+}
+.m_time_bt_text_1{
+    font-size: 30pt;
+}
+.m_time_bt_text_2{
+    font-weight: bold;
+    top: -10px;
+    font-size: 40pt;
+}
+#m_bottom{
+    float: left;
+    height: 300px;
+    width: 100%;
+    background: #bfbfbf;
+}
+.m_image_timeup{
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 1000px;
+    width: 100%;
+}
+.m_image_timeup1{
+    text-align: center;
+    height: 100%;
+    margin-left:100px;
+    margin-right: 100px;
+}
+.m_image_timeup11{
+    position: absolute;
+    left: 15%;
+    height: 1000px;
+    width: 700px;
+    z-index: 1;
+}
+.m_text_timeup_1{
+    margin-top: 40px;
+    position: absolute;
+    left: 34%;
+    font-size: 100pt;
+    color: #8b7661;
+    z-index: 2;
+    font-family: Amatic SC;
+    font-weight: bold;
+}
+.m_image_timeup12{
+    position: absolute;
+    height: 1000px;
+    width: 700px;
+    left: 15%;
+}
+.m_image_timeup1_emo{
+    position: absolute;
+    left: 27%;
+    margin-top: 400px;
+    z-index: 2;
+    width: 484px;
+    height: 330px;
+}
+.m_image_timeup1_text1{
+    width: 100px;
+    margin-top: 50px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 120pt;
+    z-index: 2;
+    left: 35%;
+    font-weight: bold;
+}
+.m_image_timeup1_text2{
+    font-weight: bold;
+    width: 100px;
+    margin-top: 180px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 120pt;
+    z-index: 2;
+    left: 40%;
+}
+.m_image_timeup1_text3{
+    font-weight: bold;
+    position: absolute;
+    margin-top: 800px;
+    font-size: 55pt;
+    left: 22%;
+    z-index: 2;
+}
+.top_permit{
+    height: 47%;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+}
+#dialog_permit{
+    position: absolute;
+    display: block;
+    float: left;
+    height: 600px;
+    width: 750px;
+    background: #ffffff;
+}
+.bottom_permit{
+    display: block;
+    height: 53%;
+    width: 100%;
+    background:#ffbb09;
+
+}
+.text_bottom_permit{
+    position: absolute;
+    top:325px;
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 25pt;
+    font-family: open sans;
+}
+.download_permit{
+    position: absolute;
+    top: 470px;
+    float: left;
+    margin-left: 120px ;
+    height: 90px;
+    width: 500px;
+    background: #34a4d8;
+    text-align: center;
+}
+.download_permit_text1{
+    font-family:Amatic SC;
+    float:left;
+    margin-left:70px;
+    margin-top:-5px ;
+    font-size: 55pt;
+    font-weight: bold;
+    color: #ffffff;
+}
+.download_permit_text1:hover{
+    color: #1c85b6;
+}
+.text_top_per{
+    position:relative;
+    margin-left:90px;
+    height: 250px;
+    width: 580px;
+    text-align: center;
+}
+.download_permit a{
+    text-decoration: none;
+}
+.download_permit a{
+    text-decoration: none;
+}
+
+.text_font_open{
+    font-family: open sans;
+}
+.text_conten_dialog{
+    position: absolute;
+    float:left;
+    height: 150px;
+    width:400px;
+    text-align: center;
+    font-size: 21px;
+}
+.text_conten_dialog1{
+    position: absolute;
+    margin-top: 20px;
+    float:left;
+    height: 350px;
+    width:750px;
+    text-align: center;
+    font-size: 55px;
+}
+#dialog{
+    display: block;
+    position: absolute;
+    height:900px;
+    width:750px;
+    border:5px;
+    background: #ffffff;
+}
+.head_dialog{
+    padding-top: 5px;
+    height:90px;
+    width:750px;
+    background:#ff9909;
+    text-align: center;
+}
+.content_dialog{
+    position: absolute;
+    background: #ff9909;
+    height:810px;
+    width:750px;
+    border-bottom:2px dotted white;
+}
+#bt_dialog{
+    margin-top: 435px;
+    margin-left: 19%;
+    position: absolute;
+    background:black;
+    color:white;
+    height:16%;
+    width:65%;
+    font-size:70px;
+    border: none;
+    font-weight: bold;
+}
+.logo_pic{
+    width:200px;
+    height:100%;
+}
+.img_pic_dialog{
+    height: 45%;
+    width: 75%;
+    margin-left:25px;
+    margin-top: 20px;
+}
+.text_dialog_bottom{
+    position:absolute;
+    top:10px;
+    width:50%;
+    height:20%;
+    margin-left:50%;
+}
+.text_dialog_bottom span{
+    font-size:12px;
+}
+.note_img{
+    font-size:25px;
+    font-family:  Covered By Your Grace;
+    margin-left: 5%;
+}

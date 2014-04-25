@@ -1,0 +1,538 @@
+#medium{
+    display: none;
+}
+#container{
+    width: auto;
+    height:100%;
+    display:block;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url('../img/bgr_PC.png');
+}
+#top{
+    float: left;
+    position:relative;
+    height:50px;
+    width:100%;
+    background:#FFBF00;
+    display: block;
+}
+#content{
+     float:left;
+     display: block;
+     width:100%;
+     bottom: 10%;
+     height: 100%;
+ }
+#content_left{
+    float: left;
+    position: relative;
+    top:50px ;
+    margin-left: 20%;
+    height: 500px;
+    width: 330px;
+   }
+#content_time{
+    float: left;
+    position: relative;
+    top:50px ;
+    margin-left: 20%;
+    height: 500px;
+    width: 330px;
+    background: #ffffff;
+}
+#content_right{
+    float: left;
+    position: relative;
+    top:50px ;
+    margin-left: 10%;
+    height: 500px;
+    width: 300px;
+}
+#conten_bottom{
+    float:left;
+    width: 100%;
+    background:white ;
+    display: none;
+}
+.logo{
+    float: left;
+    position: relative;
+    height: 80%;
+    width: 30%;
+    top: 6px;
+    margin-left: 50px;
+}
+.text_logo{
+    float:left;
+    position: relative;
+    margin-left: 35%;
+    font-size: 30px;
+    color: #603913;
+    padding-top: 5px;
+}
+.img_logo{
+    height:85%
+}
+.text_font{
+    font-family:Amatic SC, cursive;
+}
+.font_text{
+    font-family: Covered By Your Grace;
+}
+.font_other{
+    font-family: Open Sans;
+}
+.text_content1{
+
+    transform: rotate(17deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    position:absolute;
+    top:36px;
+    left:30%;
+    font-family:Amatic SC;
+    font-weight: bold;
+    font-size:73px;
+    color:#634527 ;
+    z-index: 1;
+}
+.text_content2{
+    width:290px; ;
+    transform: rotate(17deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    position:absolute;
+    top:104px;
+    left:19%;
+    font-family:Amatic SC, cursive;
+    font-size:73px;
+    font-weight: bold;
+    color:#634527 ;
+    z-index: 1;
+}
+.text_right{
+    width: 360px;
+    height:17%;
+}
+.img_fb{
+    width:100%;
+    height:35%;
+}
+.download_app{
+    width:100%;
+    height:38%;
+    background:#FFBF00;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.text_white{
+    color:white;
+}
+.text_message1{
+    font-size:40px;
+    margin-left:7%;
+    font-weight: bold;
+}
+.text_message2{
+    position: absolute;
+    width: 450px;
+    font-size:40px;
+    font-weight: bold;
+    margin-left:10%;
+}
+.text_message3{
+    font-size:15px;
+    margin-left:15%;
+    margin-top:50px;
+    word-spacing:5px;
+    font-family: open sans;
+    font-size:18px;
+    font-weight:100;
+}
+.text_message4{
+    margin-left: 130px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#bt_fb{
+    margin-top:2%;
+    margin-left:12%;
+}
+#text_down{
+    padding-top: 4px;
+    left:10%;
+    top:56%;
+    height:45px;
+    width:90%;
+    position:absolute;
+    background-image: url('../img/downloadurfreeapp.png');
+    background-repeat: no-repeat;
+}
+#app_store_img{
+    margin-top:12%;
+    margin-bottom:3%;
+    margin-left:15%;
+}
+#play_store_img{
+    margin-top:2%;
+    margin-left:15%;
+}
+.text_download{
+    font-family: Covered By Your Grace;
+    font-size: 25px;
+    color: #634527;
+    margin-left: 13px;
+    font-weight:100;
+    text-align: center;
+}
+.time{
+    width:100%;
+    height:35%;
+}
+.downclock{
+    border-radius: 40px;
+    margin-top:0%;
+    margin-bottom: 12px;
+    margin-left:43%;
+    height:80px;
+    width:80px;
+}
+.emotions{
+    margin-top: 27px;
+    width:100%;
+    height:65%;
+}
+.head_emo{
+    padding-top: 3px;
+    text-align:center;
+    font-size:18pt;
+    height:11%;
+    width:118%;
+    background:#634527;
+    font-family:Covered By Your Grace ;
+    padding-bottom: 5px;
+}
+.body_emo{
+    height:78%;
+    width:118%;
+    background:#FFBF00;
+}
+.emo1{
+    position:absolute;
+    height:60px;
+    width:70px;
+    left:10%;
+    margin-top:10%;
+}
+.emo2{
+    left:46%;
+    margin-top:10%;
+    position:absolute;
+    height:60px;
+    width:70px;
+}
+.emo3{
+    margin-left:83%;
+    margin-top:10%;
+    position:absolute;
+    height:60px;
+    width:70px;
+}
+.emo4{
+    margin-left:25%;
+    margin-top:45%;
+    position:absolute;
+    height:60px;
+    width:70px;
+}
+.emo5{
+    margin-left:70%;
+    margin-top:45%;
+    position:absolute;
+    height:60px;
+    width:70px;
+}
+.e_img{
+    width:125%;
+    height:100%;
+}
+.body_emo a{
+    text-decoration:none;
+}
+.bt_select{
+    border-radius: 10%;
+    height:33%;
+    width: 75px;
+    background:url('../img/select-emotion.png');
+    font-size: 9px;
+    font-family: Open Sans;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 6px;
+}
+.bt_select:hover{
+    background:#1e5d7b;
+}
+#dialog{
+    display: block;
+    position: absolute;
+    height:400px;
+    width:500px;
+    display: none;
+    border:5px;
+
+}
+.head_dialog{
+    padding-top: 4px;
+    height:35px;
+    width:500px;
+    background:#ff9909;
+}
+.content_dialog{
+    position: absolute;
+    background: #ff9909;
+    height:259px;
+    width:500px;
+    border-bottom:2px dotted white;
+}
+.bottom_dialog{
+    margin-top: 261px;
+    position: absolute;
+    background:#644528;
+    height:25%;
+    width:100%;
+}
+#bt_dialog{
+    margin-top: 163px;
+    margin-left: 28%;
+    position: absolute;
+    background:black;
+    margin-left:22%;
+    color:white;
+    height:16%;
+    width:55%;
+    font-size:20px;
+    border: none;
+    font-weight: bold;
+}
+.logo_pic{
+    width:200px;
+    height:100%;
+}
+.img_pic_dialog{
+    height: 45%;
+    width: 75%;
+    margin-left:25px;
+    margin-top: 20px;
+}
+.text_dialog_bottom{
+    position:absolute;
+    top:10px;
+    width:50%;
+    height:20%;
+    margin-left:50%;
+}
+.text_dialog_bottom span{
+    font-size:12px;
+}
+.note_img{
+    font-size:25px;
+    font-family:  Covered By Your Grace;
+    margin-left: 5%;
+}
+.text_timeup1{
+    position:absolute;
+    font-weight: bold;
+    top:7%;
+    left:10%;
+    font-family:Amatic SC, cursive;
+    font-size:70pt;
+    color:#603913;
+    z-index: 1;
+}
+.text_timeup2{
+    left: 10px;
+    right: 10px;
+    position:absolute;
+    top:80%;
+    font-family:Covered By Your Grace;
+    font-size:20pt;
+    color:#603913;
+    text-align: center;
+    z-index: 1;
+}
+.text_timeup3{
+    left:10%;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family:Amatic SC, cursive;
+}
+.text_timeup4{
+    text-align:center;
+    margin-left:10%;
+    font-family:Amatic SC, cursive;
+    font-weight: bold;
+    font-size:40pt;
+}
+.text_emo1{
+    width:330px;
+    position:absolute;
+    top:10%;
+    font-family:Amatic SC, cursive;
+    font-size:75px;
+    text-align: center;
+    font-weight: bold;
+    z-index: 1;
+}
+.text_emo2{
+    position:absolute;
+    width: 330px;
+    top:85%;
+    font-family:Covered By Your Grace;
+    font-size:30px;
+    text-align: center;
+    z-index: 1;
+}
+.text_emo3{
+    position:absolute;
+    width: 330px;
+    font-weight: bold;
+    top:25%;
+    font-family: Amatic SC, cursive;
+    font-size:75px;
+    text-align: center;
+    z-index: 1;
+}
+.img_love_emo{
+    position:absolute;
+    width:75%;
+    height:35%;
+    top:45%;
+    text-align: center;
+    margin-left:11%;
+    z-index: 1;
+}
+.text_think{
+    font-size:25px;
+    color:white;
+    top:10%;
+}
+#dialog_permit{
+    position: fixed;
+    height: 510px;
+    width: 580px;
+    background:#ffffff;
+}
+.top_permit{
+    height: 47%;
+    width: 100%;
+    background: #ffffff;
+}
+.bottom_permit{
+    height: 53%;
+    width: 100%;
+    background:#ffbb09;
+
+}
+.text_bottom_permit{
+    position: absolute;
+    top:300px;
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 17pt;
+    font-family: open sans;
+}
+.download_permit{
+    position: absolute;
+    top: 420px;
+    margin-left: 150px ;
+    height: 75px;
+    width: 290px;
+    background: #34a4d8;
+    text-align: center;
+}
+.text_top_per{
+    position:relative;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 200px;
+    width: 380px;
+    text-align: center;
+}
+.download_permit a{
+    text-decoration: none;
+}
+
+.text_font_open{
+    font-family: open sans;
+}
+.text_conten_dialog{
+    top: -10px;
+    position: absolute;
+    float:left;
+    height: 150px;
+    width:400px;
+    text-align: center;
+    font-size: 21px;
+    margin-left: 50px;
+}
+.red_clock{
+    display: none;
+    position: absolute;
+    top: -24px;
+    margin-left:-17px;
+    height: 124px;
+    width: 116px;
+}
+.mid_timeup{
+    margin-top: 50px;
+    margin-left:-7px; ;
+    width:100%;
+    height:30%;
+    font-size: 11pt;
+    text-align: center;
+}
+.hide_image{
+    position: absolute;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    z-index:0;
+}
+.image_choose{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    z-index:1;
+}
+.blue_clock{
+    position: absolute;
+    top: -2px;
+    margin-left: -10px;
+    height: 100px;
+    width: 100px;
+}
+.img_timeup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0px;
+    z-index:1;
+}
+#bottom{
+    width: 100%;
+    height:100% ;
+}
